@@ -16,7 +16,7 @@ body {
     padding: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 100%;
-    background-image: url("Chess.jpg");
+    background-image: url("chessboard.jpg");
     width: 90%;
     
 
@@ -51,8 +51,7 @@ nav {
     padding: 1rem;
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
-    outline: #208AAE;
-    outline-width: 1%;
+    
 }
 
 aside {
