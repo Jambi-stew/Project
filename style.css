@@ -1,0 +1,82 @@
+/*
+body {
+    display: grid;
+    width: 800px;
+     grid-template-columns: repeat(12, 1fr);
+    gap: 0.2rem;
+    background-color: darkslateblue;
+    color: mintcream;
+
+}
+*/
+
+.site-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20pt;
+    background-color: #60492C;
+    width: 90%;
+    
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #F9EBE0;
+    margin: auto;
+    padding:auto;
+    
+
+}
+
+header, footer {
+    background-color:#208AAE;
+    color: #F9EBE0;
+    grid-column: span 5;
+    text-align: center;
+    padding: 1rem;
+   
+       
+}
+
+nav {
+    background-color: #78BC61;
+    grid-column: span 5;
+    padding: 1rem;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+aside {
+    background-color: #78BC61;
+    grid-column: 5;
+   
+    
+}
+
+/*footer {
+    background-color: #208AAE;
+    grid-column: span 5;
+    padding: 1rem;
+    margin: 0rem;
+}
+*/
+#intro {
+    background-color: #F9EBE0;
+    text-align: center;
+    padding: 0.5rem;
+    grid-column: 2 / span 2;
+    
+}
+
+/* Phone formatting
+@media only screen and (max-width:600px) {
+   .grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+   }
+    
+} */
